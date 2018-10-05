@@ -111,6 +111,10 @@ public class Main {
                     System.out.println("Invalid choice");
                     displayMenu(id, accountArray);
             }
+        }else{
+            System.out.println("Wrong id account!!!");
+            id = inputId();
+            displayMenu(id, accountArray);
         }
     }
 }
